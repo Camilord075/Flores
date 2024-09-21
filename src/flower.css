@@ -1,0 +1,87 @@
+/* General */
+* {
+    background-color: #220052;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #220052;
+    margin: 0;
+}
+
+.flower-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.flower {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.petal {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #fdd835;
+    border-radius: 50%;
+}
+
+.petal1 {
+    top: 0;
+    left: 20px;
+}
+
+.petal2 {
+    top: 20px;
+    right: 0;
+}
+
+.petal3 {
+    bottom: 0;
+    left: 20px;
+}
+
+.petal4 {
+    top: 20px;
+    left: 0;
+}
+
+.center {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    width: 300px;
+}
+
+.text-container p {
+    text-align: center;
+    color: white;
+}
+
+.corazon {
+    color: red;
+}
